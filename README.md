@@ -10,7 +10,7 @@ Running the Bot
 Install the Twitter gem if you haven't already
 
 ```
-gem install ruby
+gem install twitter
 ```
 
 Get your Twitter Keys for your bot application from https://dev.twitter.com/
