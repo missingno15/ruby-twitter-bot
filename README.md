@@ -7,6 +7,12 @@ A Twitter bot in Ruby.
 Running the Bot
 ================
 
+Install the Twitter gem if you haven't already
+
+``
+gem install ruby
+``
+
 Get your Twitter Keys for your bot application from https://dev.twitter.com/
 Substitute the placeholder text in the config.yaml file with your keys.
 
