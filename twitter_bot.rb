@@ -32,7 +32,7 @@ class TwitterBot
     loop do
       MESSAGES.each do |message|
         CLIENT.update(message)
-        puts "Idol Buffet Bot has tweeted the following message:"
+        puts "Twitter Bot has tweeted the following message:"
         puts "#{message}"
     
         update_counter
