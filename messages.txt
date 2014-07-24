@@ -1,0 +1,1 @@
+# Bot will read your Twitter messages you want line by line so make sure they follow that format. May change in the future
