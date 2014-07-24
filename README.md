@@ -31,6 +31,4 @@ ruby twitter_bot.rb
 Use TwitterBot responsibly. I am not responsible for your BS. Uploading TwitterBot to Github is primarily a way to showcase what I have done and to get feedback on how to improve it.
 
 
-Thanks for viewing! Since you've viewed my application, you are now obligated to watch the following video!
-
-https://www.youtube.com/watch?v=5QjACk4qM6g
+Thanks for viewing! Since you've viewed my application, [you are now obligated to watch the following video!](https://www.youtube.com/watch?v=5QjACk4qM6g)
