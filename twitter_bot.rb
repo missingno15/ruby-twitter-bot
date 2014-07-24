@@ -27,18 +27,18 @@ class TwitterBot
     at_these_intervals = set_time 
     puts "Tweets will be sent out every #{@hours} hour(s) and #{@minutes} minute(s)"
     
-    MESSAGES.shuffle 
+    MESSAGES.shuffle!
 
     loop do
       MESSAGES.each do |message|
         CLIENT.update(message)
         puts "Twitter Bot has tweeted the following message:"
-        puts "#{message}"
+        puts "\n#{message}\n"
     
         update_counter
         show_reminder
 
-        MESSAGES.shuffle if message == MESSAGES[-1]
+        MESSAGES.shuffle! if MESSAGES[-1] == message
         sleep at_these_intervals
       end
 
