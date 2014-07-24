@@ -22,7 +22,10 @@ Put them line by line as TwitterBot will read each message in that format.
 If you are running a Windows machine, download the following file and make sure its the same directory as the other three files.
 http://curl.haxx.se/ca/cacert.pem
 
-run 'ruby twitter_bot.rb'
+Run 
+```
+ruby twitter_bot.rb
+```
 
 
 Use TwitterBot responsibly. I am not responsible for your BS. Uploading TwitterBot to Github is primarily a way to showcase what I have done and to get feedback on how to improve it.
